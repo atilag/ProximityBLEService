@@ -1,0 +1,27 @@
+{
+  "name": "BLE Service",
+  "version": "1.0.0",
+  "description": "GATT Test service for testing proximity events with BLE",
+  "main": "ble_service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Gomez",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  },
+  "bugs": {
+    "url": "https://github.com/atilag/flyweb.js/issues"
+  },
+  "homepage": "https://flyweb.github.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atilag/flyweb.js.git"
+  },
+  "dependencies": {
+    "bleno": "^0.4.0",
+    "ursa": "^0.9.4"
+  }
+}
